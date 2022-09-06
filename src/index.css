@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.form{
+  margin: 5px;
+  padding: 5px;
+}
+h1{
+  margin-left: 15rem;
+}
+ul {
+  list-style-type: none;
+}
+
+main{
+  padding: 1rem;
+}
+
+.services{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service{
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+
+.service img{
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+}
+
+.service-info{
+  padding: 1rem;
+}
+p{
+  width: 100%;
+  max-width: 400px;
+}
