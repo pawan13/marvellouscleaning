@@ -10,7 +10,7 @@ by the team of cleaners with the experience of more than 7-8 yrs in cleaning ind
       </li>
       <li>More than 2years in business.</li></b>
 </ul>
-<img style={{ marginLeft:"10rem", width:"40rem"}}height={200} src="../images/clean.jpg" alt='clean'></img>
+<img style={{ marginLeft:"5rem", width:"20rem"}}height={200} src="../images/clean.jpg" alt='clean'></img>
 <h1>Our values</h1>
 <b>
   <ul>
