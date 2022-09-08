@@ -1,12 +1,11 @@
 import  Button  from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
 
 export default function Navbar(){
     return(
       <>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         
-      <a href="/home" className="navbar-brand">
+      <a href="/" className="navbar-brand">
         <img src="../images/logo.jpg" width={182} height={64} alt="logo"></img><br/>
         
       </a>

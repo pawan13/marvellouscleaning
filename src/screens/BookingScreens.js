@@ -112,8 +112,8 @@ export default function BookingFormScreen() {
         ref={form}
         onSubmit={handleSubmit}
       >
-        <h1>Book Us</h1>
-        <label className="formBooking">
+        <h2>Book Us</h2>
+        <label >
           FullName:{' '}
           <input
             type="text"
@@ -124,18 +124,18 @@ export default function BookingFormScreen() {
           <p style={{ color: 'red' }}>{formErrors.FullName}</p>
         </label>
         <br />
-        <label className="formBooking">
-          Mobile Number :{' '}
+        <label>
+          Mobile :{' '}
           <input
             type="Number"
-            name="MobileNumber"
+            name="Mobile"
             value={state.MobileNumber}
             onChange={handleChange}
           />
           <p style={{ color: 'red' }}>{formErrors.MobileNumber}</p>
         </label>
         <br />
-        <label className="formBooking">
+        <label >
           Email :{' '}
           <input
             type="text"
@@ -146,7 +146,7 @@ export default function BookingFormScreen() {
           <p style={{ color: 'red' }}>{formErrors.email}</p>
         </label>
         <br />
-        <label className="formBooking">
+        <label>
         Please pick what you want to clean? :{' '}
           <select
             name="cleaning"
@@ -170,12 +170,12 @@ export default function BookingFormScreen() {
         </label>
         <br />
 
-        <label className="formBooking">
+        <label>
           Description of the computers Problem : <br />
           <textarea
-            rows="5"
-            cols="50"
-            width="2400px"
+            rows="3"
+            cols="30"
+            width="1400px"
             name="description"
             value={state.description}
             onChange={handleChange}

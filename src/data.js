@@ -51,7 +51,7 @@ const data = {
       {
         id: 9,
         name: 'Real estate and Construction Cleaning',
-        image: '/images/real estate cleaning.jpg', // 679px × 829px
+        image: '/images/Realestatecleaning.jpg', // 679px × 829px
         description: 'At marvellous cleaning, we understand what builders go through and the pressures they can sometimes be under when on site. Our experienced cleaning crew can help you feel at ease on your building or property development site in Canberra and Queanbeyan by providing thorough builder’s cleans. From cleaning up the mess that tradespeople leave behind to ensuring your property is neat and tidy throughout, we have a strong reputation for reliability and efficiency and real estate cleaning includes End Of Lease and Pre-sale Cleaning  ',
       },
       {

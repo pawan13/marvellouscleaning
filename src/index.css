@@ -11,10 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
-.form{
-  margin: 5px;
-  padding: 5px;
+form{
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  
+
+}
+form > h2 {
+  margin-left: 6rem;
+}
+label{
+margin: 1rem;
+}
+input, select, textarea{
+  padding: 0.5rem;
+  min-width: 20rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul {
@@ -48,4 +71,7 @@ main{
 p{
   width: 100%;
   max-width: 400px;
+}
+h1{
+  text-align: center;
 }

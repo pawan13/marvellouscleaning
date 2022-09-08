@@ -6,12 +6,14 @@ import BookingScreens from "./screens/BookingScreens.js";
 import AboutScreens from "./screens/AboutScreens.js";
 import ServicesScreens from './screens/ServicesScreens';
 import HomeScreens from './screens/HomeScreens';
+import MainScreen from './screens/MainScreen';
 
 function App() {
   return (
     <>
     <div>
-     <Navbar/> 
+     <Navbar/>
+     
 
      <BrowserRouter>
      <Routes>
@@ -19,6 +21,8 @@ function App() {
         <Route path="/about" element={<AboutScreens/>}></Route> 
         <Route path="/services" element={<ServicesScreens/>}></Route>
         <Route path="/home" element={<HomeScreens/>}></Route>
+        <Route path="/" element={<MainScreen/>}></Route>
+        
      </Routes>
      </BrowserRouter>
      
