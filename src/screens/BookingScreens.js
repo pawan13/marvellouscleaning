@@ -171,7 +171,7 @@ export default function BookingFormScreen() {
         <br />
 
         <label>
-          Description of the computers Problem : <br />
+          Description of cleaning  : <br />
           <textarea
             rows="3"
             cols="30"
