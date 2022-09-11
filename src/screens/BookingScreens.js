@@ -128,7 +128,7 @@ export default function BookingFormScreen() {
           Mobile :{' '}
           <input
             type="Number"
-            name="Mobile"
+            name="MobileNumber"
             value={state.MobileNumber}
             onChange={handleChange}
           />
