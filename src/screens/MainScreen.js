@@ -4,7 +4,7 @@ import BookingFormScreen from './BookingScreens'
 import AboutScreens from './AboutScreens'
 import ServicesScreens from './ServicesScreens'
 
-export default function () {
+export default function MainScreen() {
   return (
     <div>
         <HomeScreens/>
